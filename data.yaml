@@ -1,0 +1,13 @@
+train: C:\Users\Akshan\PycharmProjects\pythonProject_chromosome\train\images
+val: C:\Users\Akshan\PycharmProjects\pythonProject_chromosome\valid\images
+test: C:\Users\Akshan\PycharmProjects\pythonProject_chromosome\test\images
+
+nc: 24
+names: ['1', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '2', '20', '21', '22', '3', '4', '5', '6', '7', '8', '9', 'X', 'Y']
+
+roboflow:
+  workspace: yolov5-w7acb
+  project: yolov5-chromosome
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-w7acb/yolov5-chromosome/dataset/1

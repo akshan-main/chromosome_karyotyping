@@ -4,3 +4,5 @@ In this research, we have developed an intelligent system designed to assist in 
 This system offers several significant advantages. First, it operates swiftly, significantly reducing the time required for chromosome analysis. Second, it excels in accuracy, minimizing errors that can occur during manual analysis.
 
 The potential applications of this system are far-reaching, benefitting both clinical geneticists and researchers. Medical professionals can rely on it to better understand geneticconditions and provide more accurate diagnoses, while researchers can accelerate their studies involving genetics.
+
+I will be submitting this as my final year project. Additionally, I am in the process of awaiting publication.

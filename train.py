@@ -13,7 +13,6 @@ model._check_is_pytorch_model()
 
 data_yaml_path = "data.yaml"
 
-# Use 'cpu' for device since you don't have CUDA available
 model.train(data=data_yaml_path,
             epochs=500,
             imgsz=100,

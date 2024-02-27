@@ -31,7 +31,7 @@ class ObjectDetectionApp:
         self.loaded_cv_image = None
 
         # Load YOLO model
-        self.model = YOLO("runs/detect/train2/weights/best.pt")
+        self.model = YOLO("runs/detect/train5/weights/best.pt")
 
     def load_image(self):
         file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")])

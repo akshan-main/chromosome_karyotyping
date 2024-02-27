@@ -5,4 +5,9 @@ This system offers several significant advantages. First, it operates swiftly, s
 
 The potential applications of this system are far-reaching, benefitting both clinical geneticists and researchers. Medical professionals can rely on it to better understand genetic conditions and provide more accurate diagnoses, while researchers can accelerate their studies involving genetics.
 
+runs/detect/train/train3/weights/best.pt for iou=0.7, imgsz=100, epochs=500 model=yolov8n.pt
+runs/detect/train/train5/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8n.pt
+runs/detect/train/train7/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8x.pt
+
+
 I will be submitting this as my final year project. Additionally, I am in the process of awaiting publication.

@@ -11,4 +11,4 @@ runs/detect/train/train7/weights/best.pt for iou=0.5, imgsz=100, epochs=500 mode
 runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 model=yolov8x.pt 
 
 
-I will be submitting this as my final year project. Additionally, I am in the process of awaiting publication.
+I will be submitting this as my final year project. Additionally, my paper has been accepted for publication in a scopus indexed journal.

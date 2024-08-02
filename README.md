@@ -9,6 +9,3 @@ runs/detect/train/train3/weights/best.pt for iou=0.7, imgsz=100, epochs=500 mode
 runs/detect/train/train5/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8n.pt  
 runs/detect/train/train7/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8x.pt  
 runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 model=yolov8x.pt 
-
-
-I will be submitting this as my final year project. Additionally, my paper has been accepted for publication in a scopus indexed journal.

@@ -14,6 +14,5 @@ runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 mode
 <img align =right src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/sample_output.jpeg">
 </section>
 <hr>
-
-
+<space> </space>
 presented at national conference on medical and health sciences 2024, chennai

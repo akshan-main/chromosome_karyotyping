@@ -17,9 +17,9 @@ runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 mode
 
 <br/>
 
-<br/>
 
-<br/>
+
+
 
 <img height=642 width=395 align=left src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/test/images/karyotype-11_bmp_jpg.rf.75f3e9e0274d17fbf5e3140cd64f7aaa.jpg"> 
 <img height=640 width=395 align =right src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/sample_output.jpeg">

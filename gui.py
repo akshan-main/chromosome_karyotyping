@@ -4,16 +4,16 @@ import numpy as np
 from PIL import Image, ImageTk
 import cv2
 from ultralytics import YOLO
-from ttkthemes import ThemedStyle  # Import ThemedStyle from ttkthemes
+from ttkthemes import ThemedStyle 
 
 class ObjectDetectionApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Model for Chromosome Detection")
-        self.root.geometry("800x800")  # Set window size
+        self.root.geometry("800x800")  # Window Size
 
         style = ThemedStyle(root)
-        style.set_theme("equilux")  # Set the theme for the whole app
+        style.set_theme("equilux")  # Interface Theme
 
         title_label = tk.Label(root, text="Model for chromosome detection ", font=("Helvetica", 20))
         title_label.pack(pady=20)
@@ -24,20 +24,20 @@ class ObjectDetectionApp:
         self.detect_button = tk.Button(root, text="Detect Objects", command=self.detect_objects)
         self.detect_button.pack(pady=10)
 
-        self.image_label = tk.Label(root, bg="LightYellow", padx=20, pady=20)  # Set panel color and padding
+        self.image_label = tk.Label(root, bg="LightYellow", padx=20, pady=20)  # Panel color and padding
         self.image_label.pack(fill=tk.BOTH, expand=True)  # Expand label to fill window
 
         self.loaded_image = None
         self.loaded_cv_image = None
 
-        # Load YOLO model
+        # Loading YOLO model
         self.model = YOLO("runs/detect/train5/weights/best.pt")
 
     def load_image(self):
         file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")])
         if file_path:
             self.loaded_image = Image.open(file_path)
-            self.loaded_image = self.loaded_image.resize((600, 600))  # Resize image if needed
+            self.loaded_image = self.loaded_image.resize((600, 600))  # Image sizing
             self.loaded_cv_image = cv2.cvtColor(np.array(self.loaded_image), cv2.COLOR_RGB2BGR)
             self.display_cv_image(self.loaded_cv_image)
 

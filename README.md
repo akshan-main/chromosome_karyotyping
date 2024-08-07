@@ -11,9 +11,9 @@ runs/detect/train/train7/weights/best.pt for iou=0.5, imgsz=100, epochs=500 mode
 runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 model=yolov8x.pt 
 <section>
 <img height=640 width=500 align=left src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/test/images/karyotype-11_bmp_jpg.rf.75f3e9e0274d17fbf5e3140cd64f7aaa.jpg"> 
-<img align =right src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/sample_output.jpeg">
+<img height=640 width=500 align =right src="https://github.com/akshan-main/chromosome_karyotyping/blob/master/sample_output.jpeg">
 </section>
-
+<br>
 
 
 

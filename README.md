@@ -17,4 +17,4 @@ runs/detect/train/train9/weights/best.pt for iou=0.5, imgsz=100, epochs=100 mode
 
 
 
-presented at national conference on medical ad health sciences 2024
+                                              presented at national conference on medical ad health sciences 2024

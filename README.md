@@ -3,7 +3,8 @@ Developed a system designed to assist in the meticulous task of identifying and 
 
 This system offers several significant advantages. First, it operates swiftly, significantly reducing the time required for chromosome analysis. Second, it excels in accuracy, minimizing errors that can occur during manual analysis.
 
-Have trained the dataset on varying parameters, here's the reference:
+Have trained the dataset on varying parameters, here's the reference for the different training cycles:
+<br/>
 runs/detect/train/train3/weights/best.pt for iou=0.7, imgsz=100, epochs=500 model=yolov8n.pt  
 runs/detect/train/train5/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8n.pt  
 runs/detect/train/train7/weights/best.pt for iou=0.5, imgsz=100, epochs=500 model=yolov8x.pt  

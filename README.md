@@ -1,4 +1,4 @@
-# chromosome_karyotyping
+# Chromosome Karyotyping
 Developed a system designed to assist in the meticulous task of identifying and categorizing chromosomes within the context of karyotyping, an essential process in the field of genetics and medical diagnosis. 
 
 This system offers several significant advantages. First, it operates swiftly, significantly reducing the time required for chromosome analysis. Second, it excels in accuracy, minimizing errors that can occur during manual analysis.
